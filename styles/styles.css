@@ -1,0 +1,160 @@
+/* Inter-font-section-start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Color related styles starts */
+
+header {
+  /* margin: 5rem auto; */
+}
+.bg-color {
+    background-color: #111111;
+}
+
+.bg-color-2 {
+  background-color: #000000;
+  padding: 100px;
+}
+
+.orange-color {
+  background: #E6533C;
+}
+/* colo related styles end */
+
+/* Navbar related styles start*/
+.display-flex {
+  display: flex;
+}
+
+.brand-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #E6533C;
+  font-style: italic;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 47px;
+  padding: 5px 0;
+}
+
+.nav-link-home {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 40px;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: transparent;
+  border: none;
+  padding: 8px 20px;
+}
+
+/* navbar related style end */
+
+.navbar , .banner {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* banner title styles */
+
+.banner-title {
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-size: 4.875rem;
+
+}
+.banner {
+  gap: 5.625rem;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.Sercle-box {
+  border: 1px solid #E6533C;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.btn-img-1 {
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.Line-1 {
+  /* color: #FAFAF9; */
+  font-size: 24px;
+}
+
+.btn-p1 {
+  border: none;
+  padding: 16px 40px;
+  border-radius: 42px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn-p2 {
+  width: 180px;
+  height: 54px;
+  background: black;
+  border: 1px solid white;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14px;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-img-1 {
+  padding: 20px 23px;
+}
+
+/* banner title style end */
+
+/* Main related style start here */
+
+.container {
+  background-color: #000000;
+}
+
+.exercise-s-title {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 800;
+}
